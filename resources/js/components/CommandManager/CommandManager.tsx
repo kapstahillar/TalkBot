@@ -182,8 +182,7 @@ class CommandManager {
   		slicedCommands.shift();
   	}     
   	commandName = commandName.replace("/", ""); 
-  	const params: string [] = slicedCommands;
-  	console.log(params)
+  	const params: string [] = slicedCommands;  	
   	return { 
   		commandName: commandName,
   		params: slicedCommands,

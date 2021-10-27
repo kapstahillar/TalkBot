@@ -10,7 +10,8 @@
         "laravel/framework": "^8.65",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "laravel/ui": "3.X"
+        "laravel/ui": "3.X",
+        "laravel/mix": "^6.0.34" 
     },
     "require-dev": {
         "facade/ignition": "^2.5",

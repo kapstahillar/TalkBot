@@ -44,7 +44,7 @@ class CurrencyConverterCommandPlugin implements ICommandPlugin {
 					success : true,
 					commandString : command.commandString,
 					commandResultString: command.params[0] + " " + command.params[1] 
-							+ " is about " + json.convertedAmount + " in " + command.params[2];
+							+ " is about " + json.convertedAmount + " in " + command.params[2]
 				}
 			}					
 		}
