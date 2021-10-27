@@ -161,7 +161,7 @@ calculate takes in 3 parameters. First parameters have to be \<number> and other
 Example: 
 
 ``` 
-/convert 23141 EUR 
+/convert 23141 EUR USD
 /convert 300 AUD USD
 ```
 
