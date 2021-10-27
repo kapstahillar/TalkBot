@@ -175,8 +175,8 @@ Below is a guide how to fix this
 2. Put is somewhere where php can access it. I used C://xampp in my windows build
 3. Add those two lines to you php.ini file (Do know what PHP you are using use: php --ini)
 ``` 
-curl.cainfo = C:\php-8.0.12\cacert.pem
-openssl.cafile= C:\php-8.0.12\cacert.pem
+curl.cainfo = <path_to_cert>\cacert.pem
+openssl.cafile= <path_to_cert>\cacert.pem
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
