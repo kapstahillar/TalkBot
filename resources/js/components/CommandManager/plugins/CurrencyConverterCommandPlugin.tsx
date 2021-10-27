@@ -31,7 +31,7 @@ class CurrencyConverterCommandPlugin implements ICommandPlugin {
 	// The first Currency is accepted as the starting currency, the second one 
 	// is accetped as result currency
 	executeCommand = async(command: Command) => {
-		if (!this.validateCommand(command)) {
+		if (this.validateCommand(command)) {
 			const requestOptions = {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
@@ -56,9 +56,9 @@ class CurrencyConverterCommandPlugin implements ICommandPlugin {
 	}
 
 	// Roughly validates command before sending it to server.
-	validateCommand = (command: Command) => {
-		if (command.params.length == 2) { 
-			if (typeof command.params[0] == "number" && 
+	validateCommand = (command: Command) => {		
+		if (command.params.length == 3) { 				
+			if (!isNaN(parseInt(command.params[0])) && 
 				typeof command.params[1] == "string" &&
 				typeof command.params[2] == "string") {
 				return true;
@@ -66,19 +66,6 @@ class CurrencyConverterCommandPlugin implements ICommandPlugin {
 		}
 		return false;
 	}
-
-	private _getAllCurrenciesFromServer = () => {
-
-	}
-
-	// Can add more complex logic to it
-	private _validateCurrency = (stringCurrency: string) => {
-		if (stringCurrency) {
-
-		}
-		return false;
-	}
-
 }
 
 export default CurrencyConverterCommandPlugin;
