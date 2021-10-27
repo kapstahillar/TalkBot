@@ -193,9 +193,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Hillar Kapsta - kapstahillar@gmail.com
+LinkedIn: https://www.linkedin.com/in/hillar-kapsta-908614a6/
+Project Link: [https://github.com/kapstahillar/TalkBot](https://github.com/kapstahillar/TalkBot)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
